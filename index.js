@@ -6,7 +6,7 @@ const url =
   "https://passport.psu.ac.th/authentication/authentication.asmx?wsdl";
 const app = express();
 const cors = require("cors");
-const PORT = 80;
+const PORT = process.env.PORT || 8080
 
 app.use(bodyParser.json());
 app.use(express.json());
