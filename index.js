@@ -8,11 +8,11 @@ const cors = require("cors");
 const PORT = process.env.PORT || 8080
 
 imageList = [
-  'https://th-live-01.slatic.net/p/bbc847afac4930608b2f2e9b06ae1519.jpg',
-  'https://s3.amazonaws.com/finegardening.s3.tauntoncloud.com/app/uploads/vg-migration/2018/11/28004024/sage.JPG',
-  'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScYqBgmWO9Jgsv7WbImqc5mqLQFYM_l8XDew&usqp=CAU',
-  'https://images.homedepot-static.com/productImages/11b2e243-983f-4750-ae86-d8ca8f62edcf/svn/gurney-s-vegetable-herb-seeds-14592-64_1000.jpg',
-  'https://www.prairieviewfarmmarket.com/wp-content/uploads/2016/03/taragon.jpg',
+  'https://atlas.wiki.fextralife.com/file/Atlas/thyme_consumables_resources_atlas_mmo_game_wiki_guide.png',
+  'https://cdn140.picsart.com/293417907033201.jpg?type=webp&to=crop&r=256',
+  'https://static.wixstatic.com/media/4ac3a6_27ff6ced29084838ac7e40b660e9f7ad~mv2.jpg/v1/fill/w_256,h_256,al_c,lg_1,q_85/4ac3a6_27ff6ced29084838ac7e40b660e9f7ad~mv2.webp',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHa7oZ-G_irdRI3_FQeqQMFfzSNEydjoo7lg&usqp=CAU',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxE4ksxFS1PLMN1XOx4H_da6JuV8wJKewK-Q&usqp=CAU',
 ]
 
 app.use(bodyParser.json());
