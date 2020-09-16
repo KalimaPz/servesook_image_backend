@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 8080
 // ]
 
 let imageUri = {
-  "imageUri ": [
+  "imageUri": [
     'https://firebasestorage.googleapis.com/v0/b/servesook-farm-alpha.appspot.com/o/768px-Round_Landmark_School_Icon_-_Transparent.svg.png?alt=media&token=7b65d4bc-abf2-496f-933d-1f3c1cd38fa1',
     'https://firebasestorage.googleapis.com/v0/b/servesook-farm-alpha.appspot.com/o/768px-Round_Landmark_School_Icon_-_Transparent.svg.png?alt=media&token=7b65d4bc-abf2-496f-933d-1f3c1cd38fa1',
     'https://firebasestorage.googleapis.com/v0/b/servesook-farm-alpha.appspot.com/o/768px-Round_Landmark_School_Icon_-_Transparent.svg.png?alt=media&token=7b65d4bc-abf2-496f-933d-1f3c1cd38fa1',
