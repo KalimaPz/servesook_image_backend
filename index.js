@@ -8,7 +8,7 @@ const cors = require("cors");
 const PORT = process.env.PORT || 8080
 
 let image = {
-  "imageList" : [
+  "imageUri" : [
     'https://th-live-01.slatic.net/p/bbc847afac4930608b2f2e9b06ae1519.jpg',
     'https://s3.amazonaws.com/finegardening.s3.tauntoncloud.com/app/uploads/vg-migration/2018/11/28004024/sage.JPG',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScYqBgmWO9Jgsv7WbImqc5mqLQFYM_l8XDew&usqp=CAU',
