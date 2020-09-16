@@ -5,28 +5,28 @@ const app = express();
 const cors = require("cors");
 const PORT = process.env.PORT || 8080
 
-let image = [
-  {
-    "id" : 0,
-    "key" : 'now',
-    "link" : '',
-  },
-  {
-    "id" : 1,
-    "key" : 'today',
-    "link" : '',
-  },
-  {
-    "id" : 2,
-    "key" : 'yesterday',
-    "link" : '',
-  },
-  {
-    "id" : 3,
-    "key" : 'two_days_ago',
-    "link" : '',
-  },
-]
+// let image = [
+//   {
+//     "id" : 0,
+//     "key" : 'now',
+//     "link" : '',
+//   },
+//   {
+//     "id" : 1,
+//     "key" : 'today',
+//     "link" : '',
+//   },
+//   {
+//     "id" : 2,
+//     "key" : 'yesterday',
+//     "link" : '',
+//   },
+//   {
+//     "id" : 3,
+//     "key" : 'two_days_ago',
+//     "link" : '',
+//   },
+// ]
 
 let imageUri = {
   "imageUri ": [
@@ -46,4 +46,5 @@ app.use(cors());
 app.get("/", (req, res) => {
   return res.json(imageUri)
 });
+
 app.listen(PORT, () => console.log("SERVER IS RUNNING ON ", PORT));
